@@ -95,7 +95,7 @@
             buttonHelp.UseVisualStyleBackColor = true;
             buttonHelp.Click += buttonHelp_Click;
             // 
-            // groupBoxRes
+            // groupBoxRes 
             // 
             groupBoxRes.Controls.Add(textBoxAnswer);
             groupBoxRes.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
