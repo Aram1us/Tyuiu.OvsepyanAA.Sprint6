@@ -158,7 +158,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1181, 579);
+            ClientSize = new Size(1164, 579);
             Controls.Add(groupBoxRes_OAA);
             Controls.Add(chartRes_OAA);
             Controls.Add(buttonHelp_OAA);
