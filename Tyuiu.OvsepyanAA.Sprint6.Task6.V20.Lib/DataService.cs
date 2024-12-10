@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint6;
+﻿
+using tyuiu.cources.programming.interfaces.Sprint6;
 
 namespace Tyuiu.OvsepyanAA.Sprint6.Task6.V20.Lib
 {
