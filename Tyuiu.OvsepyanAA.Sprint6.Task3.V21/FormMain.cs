@@ -65,7 +65,7 @@ namespace Tyuiu.OvsepyanAA.Sprint6.Task3.V21
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнил студент группы СМАРТб-24-1 Овсепян Арам Андраникович", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show("Таск 3 выполнил студент группы СМАРТб-24-1 Овсепян Арам Андраникович", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
         private void dataGridViewTable_KeyPress(object sender, KeyPressEventArgs e)

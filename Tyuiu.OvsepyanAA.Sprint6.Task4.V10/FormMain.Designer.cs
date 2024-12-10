@@ -28,12 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            groupBoxTask_OAA = new GroupBox();
-            pictureBox1 = new PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             groupBoxData_OAA = new GroupBox();
             textBoxStop_OAA = new TextBox();
             textBoxStart_OAA = new TextBox();
@@ -43,33 +41,14 @@
             buttonHelp_OAA = new Button();
             buttonDone_OAA = new Button();
             buttonSave_OAA = new Button();
-            groupBoxTask_OAA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            pictureBox1 = new PictureBox();
+            groupBoxTask_OAA = new GroupBox();
             groupBoxData_OAA.SuspendLayout();
             groupBoxRes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)chartCos_OAA).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            groupBoxTask_OAA.SuspendLayout();
             SuspendLayout();
-            // 
-            // groupBoxTask_OAA
-            // 
-            groupBoxTask_OAA.Controls.Add(pictureBox1);
-            groupBoxTask_OAA.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            groupBoxTask_OAA.Location = new Point(2, 12);
-            groupBoxTask_OAA.Name = "groupBoxTask_OAA";
-            groupBoxTask_OAA.Size = new Size(396, 116);
-            groupBoxTask_OAA.TabIndex = 0;
-            groupBoxTask_OAA.TabStop = false;
-            groupBoxTask_OAA.Text = "Условие";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(6, 24);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(373, 75);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // groupBoxData_OAA
             // 
@@ -164,6 +143,27 @@
             buttonSave_OAA.UseVisualStyleBackColor = true;
             buttonSave_OAA.Click += buttonSave_OAA_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(6, 24);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(373, 75);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // groupBoxTask_OAA
+            // 
+            groupBoxTask_OAA.Controls.Add(pictureBox1);
+            groupBoxTask_OAA.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            groupBoxTask_OAA.Location = new Point(2, 12);
+            groupBoxTask_OAA.Name = "groupBoxTask_OAA";
+            groupBoxTask_OAA.Size = new Size(396, 116);
+            groupBoxTask_OAA.TabIndex = 0;
+            groupBoxTask_OAA.TabStop = false;
+            groupBoxTask_OAA.Text = "Условие";
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -178,20 +178,17 @@
             Controls.Add(groupBoxTask_OAA);
             Name = "FormMain";
             Text = "Cпринт 6 | Таск 4 | Вариант 10 | Овсепян А.А.";
-            groupBoxTask_OAA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBoxData_OAA.ResumeLayout(false);
             groupBoxData_OAA.PerformLayout();
             groupBoxRes.ResumeLayout(false);
             groupBoxRes.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)chartCos_OAA).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            groupBoxTask_OAA.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private GroupBox groupBoxTask_OAA;
-        private PictureBox pictureBox1;
         private GroupBox groupBoxData_OAA;
         private GroupBox groupBoxRes;
         private TextBox textBoxRes_OAA;
@@ -201,5 +198,7 @@
         private TextBox textBoxStop_OAA;
         private Button buttonDone_OAA;
         private Button buttonSave_OAA;
+        private PictureBox pictureBox1;
+        private GroupBox groupBoxTask_OAA;
     }
 }
