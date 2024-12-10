@@ -167,7 +167,6 @@
             buttonDone.Text = "Выполнить";
             buttonDone.UseVisualStyleBackColor = false;
             buttonDone.Click += buttonDone_Click;
-           
             // 
             // buttonHelp
             // 
@@ -178,7 +177,7 @@
             buttonHelp.TabIndex = 4;
             buttonHelp.Text = "Справка";
             buttonHelp.UseVisualStyleBackColor = false;
-            
+          
             // 
             // FormMain
             // 

@@ -42,7 +42,7 @@ namespace Tyuiu.OvsepyanAA.Sprint6.Task2.V22
 
         private void buttonHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнил студент группы СМАРТб-24-1 Овсепян Арам Андраникович", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Question);
+           
 
         }
 
@@ -60,6 +60,8 @@ namespace Tyuiu.OvsepyanAA.Sprint6.Task2.V22
         {
             buttonDone.BackColor = Color.Blue;
         }
+
+  
     }
 
 
